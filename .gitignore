@@ -1,0 +1,9 @@
+environments/development.env
+node_modules
+dist
+logs
+# /uploads/*
+.vscode
+yarn-error.log
+# yarn.lock
+.vscode
