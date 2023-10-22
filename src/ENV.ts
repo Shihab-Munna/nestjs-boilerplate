@@ -59,7 +59,7 @@ export const ormConfig: TypeOrmModuleOptions = {
       }
     : false,
   migrations: ['dist/migrations/*{.ts,.js}'],
-  migrationsTableName: 'migrations_sherlock_db',
+  migrationsTableName: 'migrations_db',
   migrationsRun: false,
   // synchronize: parseToBool(ENV.postgresDB.synchronize),
   synchronize: true,
